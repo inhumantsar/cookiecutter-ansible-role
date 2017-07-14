@@ -25,6 +25,7 @@ install:
 script:
   - ansible-playbook test.yml --syntax-check
   - ansible-playbook test.yml -c local -b
+  # - ./test/checks.sh # tasks have their own asserts, but this is an option too
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
