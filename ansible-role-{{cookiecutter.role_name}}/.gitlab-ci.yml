@@ -3,5 +3,5 @@ image: {{cookiecutter.docker_test_image}}
 test:
   script:
     - if [ -f 'requirements.yml' ]; then yum -y install git && ansible-galaxy install -r requirements.yml; fi
-    - ansible-playbook test.yml --connection=local -vvv
+    - ansible-playbook test.yml -c local -b -vvv -i 'localhost,'
     # - ./test/checks.sh # tasks have their own asserts, but this is an option too
