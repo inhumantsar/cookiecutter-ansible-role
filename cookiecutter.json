@@ -4,5 +4,5 @@
   "description": "This role does stuff with things.",
   "company": "Fake Co.",
   "min_ansible_version": "2.1",
-  "docker_test_image": "williamyeh/ansible:centos7"
+  "docker_test_image": "inhumantsar/ansible"
 }
