@@ -1,7 +1,7 @@
 image: {{cookiecutter.docker_test_image}}
 
 test:
-  vars:
-    WORKDIR: /workspace
+  variables:
+    WORKDIR: "$CI_PROJECT_DIR"
   script:
     /start.sh -vvv
