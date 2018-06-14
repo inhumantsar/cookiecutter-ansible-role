@@ -1,8 +1,16 @@
 {
+  "year": 2018,
   "role_name": "dummyrole",
   "author": "J. Doe",
+  "author_github": "jdoe",
   "description": "This role does stuff with things.",
   "company": "Fake Co.",
   "min_ansible_version": "2.1",
-  "docker_test_image": "inhumantsar/ansible"
+  "docker_test_image": "inhumantsar/ansible",
+  "license": ["BSD", "MIT", "GPLv3"],
+  "target_el": ["y", "n"],
+  "target_fedora": ["y", "n"],
+  "target_debian": ["y", "n"],
+  "target_ubuntu": ["y", "n"],
+  "target_alpine": ["y", "n"]
 }
