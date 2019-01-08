@@ -1,5 +1,5 @@
 {
-  "year": 2018,
+  "year": 2019,
   "role_name": "dummyrole",
   "author": "J. Doe",
   "author_github": "jdoe",
@@ -7,7 +7,7 @@
   "company": "Fake Co.",
   "min_ansible_version": "2.1",
   "docker_test_image": "inhumantsar/ansible",
-  "license": ["BSD", "MIT", "GPLv3"],
+  "license": ["BSD", "MIT", "GPLv3", "Proprietary"],
   "target_el": ["y", "n"],
   "target_fedora": ["y", "n"],
   "target_debian": ["y", "n"],
